@@ -1,0 +1,8 @@
+# Runtime dependencies. See README.md for what each one is for.
+requests>=2.31         # filings API client
+psycopg[binary]>=3.1   # PostgreSQL driver (psycopg 3), incl. the JSONB adapter
+python-dotenv>=1.0     # .env loading in development (optional at runtime)
+
+# Development
+# pytest>=8.0
+# ruff>=0.5
